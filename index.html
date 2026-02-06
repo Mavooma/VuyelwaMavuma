@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vuyelwa — Virtual Assistant Portfolio</title>
+  <meta name="description" content="Virtual Assistant portfolio showcasing admin, customer support, content, and operations skills." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="logo" href="#top">Vuyelwa<span>Mavuma</span></a>
+
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav__links" data-nav>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a class="btn btn--small" href="#contact">Hire Me</a></li>
+      </ul>
+    </nav>
+
+<section class="hero container">
+  <!-- LEFT -->
+  <div class="hero__text">
+    <p class="pill">Virtual Assistant • Admin • Ops • Customer Support</p>
+    <h1>Hi, I’m <span class="accent">Vuyelwa</span> — I help busy people get their time back.</h1>
+    <p class="lead">
+      I support founders and teams with admin, customer support, scheduling, research, CRM updates,
+      social media assistance, and clean systems that keep everything running.
+    </p>
+
+    <div class="hero__cta">
+      <a class="btn" href="#contact">Let’s work together</a>
+      <a class="btn btn--ghost" href="#work">See my work</a>
+    </div>
+
+    <div class="hero__meta">
+      <div class="stat">
+        <span class="stat__num" data-counter="5">0</span>
+        <span class="stat__label">Projects supported</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-counter="15">0</span>
+        <span class="stat__label">Tools I use</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-counter="5">0</span>
+        <span class="stat__label">Skill categories</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="hero__right">
+    <div class="hero__card">
+      <div class="profile">
+        <div class="profile__img" aria-hidden="true"></div>
+        <div>
+          <h3>Available for remote work</h3>
+          <p>South Africa (GMT+2) • International clients welcome</p>
+        </div>
+      </div>
+
+                <!-- South Africa time -->
+<div class="clock-center">
+  <span class="badge badge--clock">
+    🇿🇦 <span id="sa-time">00:00</span> SAST
+  </span>
+</div>
+
+      <div class="tool-badges">
+        <span class="badge">Google Workspace</span>
+        <span class="badge">Jira</span>
+        <span class="badge">Trello</span>
+        <span class="badge">Canva</span>
+        <span class="badge">HubSpot</span>
+        <span class="badge">Slack</span>
+      </div>
+
+      <a class="btn btn--full" href="#contact">Book a call</a>
+    </div>
+
+    <figure class="portrait">
+      <div class="portrait__frame">
+        <img src="images/Vuyelwa.png" alt="Vuyelwa portrait" />
+      </div>
+    </figure>
+  </div>
+</section>
+  </header>
+
+<!-- About -->
+<section class="section container" id="about">
+  <!-- Row 1: text sits next to the portrait (portrait overlaps from hero) -->
+  <div class="about-top">
+    <div class="about-copy">
+      <h2>About</h2>
+      <p class="about-lead">
+        Hi, I’m Vuyelwa Mavuma, a detail-driven Virtual Assistant and operations support professional who helps businesses stay organised, responsive, and running smoothly behind the scenes. <br/><br/>
+
+I have experience supporting executives, teams, and clients across corporate, creative, education, and remote-first environments. My work focuses on administrative coordination, client communication, onboarding, documentation, and day-to-day operational support, handled with accuracy, structure, and care.<br/><br/>
+
+I’m known for being reliable, proactive, and calm under pressure. I don’t just complete tasks; I help create systems that make work easier, clearer, and more consistent. I work best with founders and teams who value trust, clarity, and dependable support, and I approach every role with a strong sense of ownership and professionalism.
+      </p>
+
+      <p class="about-sub">
+        My goal is simple: to make your workday lighter by handling the details you shouldn’t have to.
+      </p>
+    </div>
+
+    <!-- This column is empty on purpose: it reserves space under the portrait -->
+    <div class="about-spacer" aria-hidden="true"></div>
+  </div>
+
+  <!-- Row 2: cards go below (full width) -->
+  <div class="grid-2 about-cards">
+    <div class="card">
+      <h3>What you get</h3>
+      <ul class="list">
+        <li>Tasks are followed through and nothing slips through the cracks.</li>
+        <li>Your admin, documents, and communication stay structured and easy to manage.</li>
+        <li>Issues are identified and handled early, without waiting to be told.</li>
+        <li>Your clients feel informed, supported, and taken seriously.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>My core strengths</h3>
+      <div class="chips">
+        <span class="chip">Operational Clarity</span>
+        <span class="chip">Proactive Problem Solving</span>
+        <span class="chip">Clear & Professional Communication</span>
+        <span class="chip">Systems & Workflow Thinking</span>
+        <span class="chip">Adaptability Across Industries</span>
+        <span class="chip">Self-Managed & Remote-Ready</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Services -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="section__head">
+        <h2>Services</h2>
+        <p>Reliable administrative and operational support designed to keep your business organised, efficient, and running smoothly.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card service">
+          <h3>Administrative & Operations Support</h3>
+          <p>Day-to-day administrative support that keeps your business organised, efficient, and running smoothly.</p>
+          <ul class="mini">
+            <li>Manage daily admin tasks and workflows</li>
+            <li>Organise documents, files, and records</li>
+            <li>Handle scheduling, inbox support, and task tracking</li>
+            <li>Support executives and teams with operational coordination</li>
+          </ul>
+        </article>
+
+        <article class="card service">
+          <h3>Client Onboarding & Communication</h3>
+          <p>Professional client handling that ensures a smooth, clear, and welcoming experience from first contact to onboarding.</p>
+          <ul class="mini">
+            <li>Onboard new clients and explain processes clearly</li>
+            <li>Manage client records and CRM updates</li>
+            <li>Handle follow-ups, confirmations, and client correspondence</li>
+            <li>Act as a professional point of contact between clients and leadership</li>
+          </ul>
+        </article>
+
+        <article class="card service">
+          <h3>CRM & Systems Management</h3>
+          <p>Structured management of your CRM and internal systems to keep client data accurate, organised, and up to date.</p>
+          <ul class="mini">
+            <li>Maintain and update CRM systems</li>
+            <li>Track client data, onboarding stages, and follow-ups</li>
+            <li>Set up simple workflows for repeatable admin tasks</li>
+            <li>Ensure accurate, organised, and up-to-date records</li>
+          </ul>
+        </article>
+
+        <article class="card service">
+          <h3>Remote Scheduling & Coordination</h3>
+          <p>Seamless scheduling and coordination across calendars, time zones, and remote teams.</p>
+          <ul class="mini">
+            <li>Manage calendars, meetings, and time zones</li>
+            <li>Coordinate appointments, calls, and deadlines</li>
+            <li>Track deliverables and follow-ups across tools</li>
+            <li>Support remote teams with smooth coordination</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools -->
+<section class="section container" id="tools">
+  <div class="section__head">
+    <h2>Tools</h2>
+    <p>Tools I use to stay organized, communicate clearly, and deliver fast.</p>
+  </div>
+
+  <div class="tools-grid">
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- Airtable (grid icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M4 4h7v7H4V4zm9 0h7v7h-7V4zM4 13h7v7H4v-7zm9 0h7v7h-7v-7z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>Airtable</h3>
+        <p>Databases • Tracking • Dashboards</p>
+      </div>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- Notion (document icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M6 2h9l3 3v17H6V2zm9 1.5V6h2.5L15 3.5zM8 9h8v2H8V9zm0 4h8v2H8v-2zm0 4h6v2H8v-2z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>Notion</h3>
+        <p>Workspaces • SOPs • Wikis</p>
+      </div>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- HubSpot CRM (users icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M16 11a4 4 0 1 0-8 0 4 4 0 0 0 8 0zm-10 9c0-3 3-5 6-5s6 2 6 5v2H6v-2z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>HubSpot CRM</h3>
+        <p>Pipeline • Contacts • Notes</p>
+      </div>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- Calendly (calendar icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M7 2h2v3H7V2zm8 0h2v3h-2V2zM4 6h16v16H4V6zm2 4h12v2H6v-2zm0 4h8v2H6v-2z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>Calendly</h3>
+        <p>Bookings • Scheduling • Links</p>
+      </div>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- Jira (checklist icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M4 6h12v2H4V6zm0 5h12v2H4v-2zm0 5h12v2H4v-2zm14-9 1-1 3 3-1 1-3-3zm0 5 1-1 3 3-1 1-3-3z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>Jira</h3>
+        <p>Tickets • Sprints • Workflows</p>
+      </div>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- Google Workspace (dots icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M7 7h4v4H7V7zm6 0h4v4h-4V7zM7 13h4v4H7v-4zm6 0h4v4h-4v-4z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>Google Workspace</h3>
+        <p>Docs • Sheets • Drive</p>
+      </div>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- Slack (chat icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M4 5h16v11H7l-3 3V5zm3 3h10v2H7V8zm0 4h7v2H7v-2z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>Slack</h3>
+        <p>Comms • Updates • Channels</p>
+      </div>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- Canva (sparkle icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M12 2l1.2 3.8L17 7l-3.8 1.2L12 12l-1.2-3.8L7 7l3.8-1.2L12 2zm7 9l.8 2.5L22 14l-2.2.5L19 17l-.8-2.5L16 14l2.2-.5L19 11zM6 12l.8 2.5L9 15l-2.2.5L6 18l-.8-2.5L3 15l2.2-.5L6 12z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>Canva</h3>
+        <p>Design • Templates • Social</p>
+      </div>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- CapCut (scissors icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M9 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm6 4 7-7 1 1-7 7 7 7-1 1-7-7-2 2-1-1 2-2-2-2 1-1 2 2zM9 16a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>CapCut</h3>
+        <p>Edits • Reels • Short-form</p>
+      </div>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-logo" aria-hidden="true">
+        <!-- Adobe Suite (diamond icon) -->
+        <svg viewBox="0 0 24 24" class="icon"><path d="M12 2l8 10-8 10L4 12 12 2zm0 4.2L7.4 12 12 17.8 16.6 12 12 6.2z"/></svg>
+      </div>
+      <div class="tool-meta">
+        <h3>Adobe Suite</h3>
+        <p>Photoshop • Premiere • PDFs</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+  <!-- Work -->
+<section class="section container" id="work">
+    <div class="section__head">
+      <h2>Work Samples</h2>
+      <p>A selection of anonymised work samples demonstrating the systems, workflows, and processes I use to support day-to-day operations.</p>
+    </div>
+
+    <div class="filters" role="tablist" aria-label="Work filters">
+      <button class="filter is-active" data-filter="all">All</button>
+      <button class="filter" data-filter="admin">Admin</button>
+      <button class="filter" data-filter="support">Support</button>
+      <button class="filter" data-filter="social">Social</button>
+      <button class="filter" data-filter="ops">Ops</button>
+    </div>
+
+    <div class="work-grid" id="workGrid">
+      <article class="work card" data-tags="admin ops">
+        <h3>Weekly Task Dashboard</h3>
+        <p>Notion workspace for tracking priorities, deadlines, and recurring tasks.</p>
+        <div class="work__footer">
+          <span class="tag">Admin</span><span class="tag">Ops</span>
+          <button class="link" data-modal="modal1">Preview</button>
+        </div>
+      </article>
+
+      <article class="work card" data-tags="support">
+        <h3>Customer Support Macros</h3>
+        <p>Reusable email templates for refunds, delivery updates, and escalations.</p>
+        <div class="work__footer">
+          <span class="tag">Support</span>
+          <button class="link" data-modal="modal2">Preview</button>
+        </div>
+      </article>
+
+      <article class="work card" data-tags="social">
+        <h3>Content Calendar</h3>
+        <p>30-day posting plan with hooks, captions, and hashtags for a small brand.</p>
+        <div class="work__footer">
+          <span class="tag">Social</span>
+          <button class="link" data-modal="modal3">Preview</button>
+        </div>
+      </article>
+
+      <article class="work card" data-tags="ops admin">
+        <h3>SOP Checklist Pack</h3>
+        <p>Simple SOPs for onboarding, client intake, and weekly reporting routines.</p>
+        <div class="work__footer">
+          <span class="tag">Ops</span><span class="tag">Admin</span>
+          <button class="link" data-modal="modal4">Preview</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section section--alt" id="testimonials">
+    <div class="container">
+      <div class="section__head">
+        <h2>Testimonials</h2>
+        <p>Feedback from clients and colleagues reflecting my reliability, professionalism, and approach to operational support.</p>
+      </div>
+
+      <div class="slider card">
+        <button class="icon-btn" id="prev" aria-label="Previous testimonial">←</button>
+
+        <div class="slides" aria-live="polite">
+          <blockquote class="quote is-active">
+            <p>“Super organized, quick response times, and made my week feel manageable again.”</p>
+            <footer>— Tony Chareka, Founder</footer>
+          </blockquote>
+
+          <blockquote class="quote">
+            <p>“Handled customer emails professionally and improved our response process.”</p>
+            <footer>— Thabang Mbatha, Operations</footer>
+          </blockquote>
+
+          <blockquote class="quote">
+            <p>“The dashboards and checklists were so clean, we still use them every week.”</p>
+            <footer>— Aphiwe Moyo, Small Business</footer>
+          </blockquote>
+        </div>
+
+        <button class="icon-btn" id="next" aria-label="Next testimonial">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section container" id="contact">
+    <div class="section__head">
+      <h2>Contact</h2>
+      <p>Let’s get in touch.</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Quick info</h3>
+        <p>
+  <strong>Email:</strong>
+  <a href="mailto:mavumavuyelwa@gmail.com">mavumavuyelwa@gmail.com</a>
+</p>
+        <p><strong>Location:</strong> South Africa • Remote</p>
+        <p>
+  <strong>Social:</strong>
+  <a href="https://www.linkedin.com/in/vuyelwa-mavuma/" target="_blank" rel="noopener">LinkedIn</a>
+</p>
+
+        <hr class="hr" />
+        <p class="muted">
+  <a
+    href="https://calendly.com/vuyelwamavuma/30min"
+    target="_blank"
+    rel="noopener"
+  >
+    Book a Discovery Call
+  </a>
+</p>
+      </div>
+
+      <form
+  class="card form"
+  id="contactForm"
+  action="https://formspree.io/f/xjgevkdw"
+  method="POST"
+>
+
+        <label>
+          Name
+          <input type="text" name="name" required placeholder="Your name" />
+          <small class="error" data-error="name"></small>
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@email.com" />
+          <small class="error" data-error="email"></small>
+        </label>
+
+        <label>
+          What do you need help with?
+          <select name="service" required>
+            <option value="">Select a service</option>
+            <option>Admin Support</option>
+            <option>Customer Support</option>
+            <option>Social Media Assistance</option>
+            <option>Ops & Systems</option>
+            <option>Other</option>
+          </select>
+          <small class="error" data-error="service"></small>
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+          <small class="error" data-error="message"></small>
+        </label>
+
+        <button class="btn" type="submit">Send message</button>
+        <p class="muted" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Vuyelwa • Virtual Assistant</p>
+      <a href="#top" class="link">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Modals (Work previews) -->
+  <dialog class="modal" id="modal1">
+    <div class="modal__inner">
+      <h3>Weekly Task Dashboard</h3>
+      <p>Add a screenshot or link here. You can paste a Notion public link or embed an image.</p>
+      <button class="btn btn--ghost" data-close>Close</button>
+    </div>
+  </dialog>
+
+  <dialog class="modal" id="modal2">
+    <div class="modal__inner">
+      <h3>Customer Support Macros</h3>
+      <p>Add sample email templates here (blur private info). Keep it short and professional.</p>
+      <button class="btn btn--ghost" data-close>Close</button>
+    </div>
+  </dialog>
+
+  <dialog class="modal" id="modal3">
+    <div class="modal__inner">
+      <h3>Content Calendar</h3>
+      <p>Paste a sample weekly schedule or add a screenshot. Mention tools used (Canva, Meta Suite, etc.).</p>
+      <button class="btn btn--ghost" data-close>Close</button>
+    </div>
+  </dialog>
+
+  <dialog class="modal" id="modal4">
+    <div class="modal__inner">
+      <h3>SOP Checklist Pack</h3>
+      <p>Add a sample SOP outline. Show your formatting and clarity.</p>
+      <button class="btn btn--ghost" data-close>Close</button>
+    </div>
+  </dialog>
+
+  <dialog class="modal" id="modal1b">
+  <div class="modal__inner">
+    <h3>Weekly Task Dashboard</h3>
+
+    <img src="images/Notion.png" alt="Notion dashboard preview" class="modal-img">
+
+    <p>
+      A clean Notion dashboard designed to track weekly priorities, recurring tasks,
+      and deadlines for a small remote team.
+    </p>
+
+    <ul class="mini">
+      <li>Task status tracking</li>
+      <li>Weekly planning view</li>
+      <li>Client-friendly layout</li>
+    </ul>
+
+    <a href="https://your-notion-link-here" target="_blank" class="btn btn--ghost">
+      View live example
+    </a>
+
+    <button class="btn btn--small" data-close>Close</button>
+  </div>
+</dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
